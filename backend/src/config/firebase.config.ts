@@ -12,15 +12,35 @@ export const firebaseConfig = {
 // Initialize Firebase Admin SDK
 export const initializeFirebase = () => {
   if (!admin.apps.length) {
-    admin.initializeApp({
-      credential: admin.credential.applicationDefault(),
-      projectId: firebaseConfig.projectId,
-    });
+    try {
+      // Try to use service account key file first
+      const serviceAccountPath = process.env.GOOGLE_APPLICATION_CREDENTIALS;
+      if (serviceAccountPath) {
+        admin.initializeApp({
+          credential: admin.credential.cert(serviceAccountPath),
+          projectId: firebaseConfig.projectId,
+        });
+      } else {
+        // Fallback to application default credentials
+        admin.initializeApp({
+          credential: admin.credential.applicationDefault(),
+          projectId: firebaseConfig.projectId,
+        });
+      }
+    } catch (error) {
+      console.error('Firebase initialization error:', error);
+      throw new Error('Failed to initialize Firebase. Please check your credentials.');
+    }
   }
   return admin;
 };
 
 export const getFirestore = () => {
-  const admin = initializeFirebase();
-  return admin.firestore();
+  try {
+    const admin = initializeFirebase();
+    return admin.firestore();
+  } catch (error) {
+    console.error('Error getting Firestore:', error);
+    throw error;
+  }
 }; 
