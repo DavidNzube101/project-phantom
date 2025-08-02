@@ -1,0 +1,85 @@
+{
+    "Official Resources": {
+        "Solana Official Website": "https://solana.com/",
+        "Solana Documentation": "https://solana.com/docs/intro/quick-start",
+        "Solana Explorer (Official)": "https://explorer.solana.com/",
+        "Solscan (Third-Party Explorer)": "https://solscan.io/"
+    },
+    "Decentralized Finance (DeFi)": {
+        "MarginFi (Lending/Borrowing)": "https://marginfi.com/",
+        "Solend (Lending/Borrowing)": "https://solend.fi/",
+        "Pyth Network (Oracles)": "https://www.pyth.network/",
+        "Marinade Finance (Liquid Staking)": "https://marinade.finance/",
+        "Lido (Liquid Staking)": "https://lido.fi/",
+        "Jito Network (Liquid Staking)": "https://www.jito.network/",
+        "BlazeStake (Liquid Staking)": "https://defillama.com/protocol/blazestake",
+        "StaFi Protocol (Liquid Staking)": "https://stafi.io/",
+        "Wormhole (Cross-Chain Bridge)": "https://wormhole.com/",
+        "Allbridge (Cross-Chain Bridge)": "https://allbridge.io/",
+        "Jupiter Aggregator (DEX Aggregator)": "https://jup.ag/",
+        "Orca (DEX)": "https://www.orca.so/",
+        "Raydium (DEX)": "https://raydium.io/",
+        "Pump.fun (Meme Coin Launchpad/DEX)": "https://pump.fun/",
+        "PumpPortal.fun (Pump.fun Data/API)": "https://pumpportal.fun/",
+        "Francium (Yield Farming/Strategy)": "https://francium.io/",
+        "Katana (Yield Generation/DEX)": "https://katana.so/",
+        "Meteora (formerly Mercurial Finance - DEX/AMM)": "https://meteora-ag.webflow.io/",
+        "Tulip Protocol (Yield Aggregator)": "https://tulip.garden/",
+        "Quarry Protocol (Liquidity Mining)": "https://quarry.so/",
+        "Circle (Yield Product)": "https://www.circle.com/"
+    },
+    "NFT Ecosystem": {
+        "Magic Eden (NFT Marketplace)": "https://magiceden.io/",
+        "Solanart (NFT Marketplace)": "https://solanart.io/",
+        "SolSea (NFT Marketplace)": "https://solsea.io/",
+        "Solana Monkey Business (NFT Project DAO)": "https://monkedao.io/",
+        "Portals (Metaverse Project)": "https://theportal.to/",
+        "Galactic Geckos (NFT Project)": "https://galacticgeckos.app/",
+        "Lifinity Flares (NFT Project)": "https://lifinity.io/",
+        "Okay Bears (NFT Project)": "https://okaybears.com/",
+        "Cat in a Dogs World (MEW - Meme Coin/NFT)": "https://mew.xyz/",
+        "Popcat (Meme Coin/NFT)": "https://popcatsolana.xyz/"
+    },
+    "Gaming": {
+        "Mini Royale: Nations": "https://mini-royale.com/",
+        "Star Atlas": "https://staratlas.com/",
+        "Aurory": "https://aurory.io/",
+        "Genopets": "https://www.genopets.me/"
+    },
+    "News & Analytics": {
+        "Dune Analytics": "https://dune.com/",
+        "Moralis": "https://moralis.io/",
+        "NFTScan": "https://www.nftscan.com/",
+        "The Grid": "https://thegrid.id/",
+        "CryptoSlam": "https://cryptoslam.io/",
+        "DEX Screener": "https://dexscreener.com/",
+        "DeFiLlama": "https://defillama.com/",
+        "Coin Metrics": "https://coinmetrics.io/",
+        "Birdeye (Crypto Analytics)": "https://birdeye.so/",
+        "SolanaFloor (News/Media)": "https://solanafloor.com/",
+        "Blockworks (News/Media)": "https://blockworks.co/"
+    },
+    "Community & Developer Resources": {
+        "Solana Developers Portal": "https://solana.com/developers",
+        "FreeCodeCamp (Solana Courses)": "https://web3.freecodecamp.org/solana",
+        "Solana Foundation Courses": "https://solana.com/developers/courses",
+        "RiseIn (Educational Platform)": "https://www.risein.com/",
+        "RareSkills (Educational Platform)": "https://rareskills.io/",
+        "Hackquest (Educational Platform)": "https://www.hackquest.io/",
+        "Solana Discord": "https://solana.com/discord",
+        "Solana Forums": "https://forums.solana.com",
+        "Solana Reddit": "https://www.reddit.com/r/solana"
+    },
+    "Inaccessible/Indirectly Linked Sites (During Research)": {
+        "Mango Markets (DeFi)": "https://mango.markets/",
+        "PsyOptions (DeFi)": "https://psyoptions.io/",
+        "JPool (DeFi)": "Official site not found, typically listed on aggregators.",
+        "Socean (DeFi)": "Official liquid staking site not found, typically listed on aggregators.",
+        "SolanaFM (Analytics)": "https://solana.fm/",
+        "Famous Fox Federation (NFT Project)": "https://famousfoxes.com/",
+        "Degenerate Ape Academy (NFT Project)": "https://www.degenape.academy/",
+        "Taiyo Robotics (NFT Project)": "Official NFT project website not found (taiyo.ai is an AI company).",
+        "Bonk (Meme Coin)": "https://bonk.xyz/",
+        "Dogwifhat (Meme Coin)": "https://wif.dog/"
+    }
+}
