@@ -150,7 +150,6 @@ func (c *Crawler) CrawlURL(job core.CrawlJob) core.CrawlResult {
 		colly.MaxDepth(c.config.MaxDepth),
 		colly.UserAgent(c.config.UserAgent),
 		colly.AllowURLRevisit(), // Allow crawling the same URL multiple times
-		colly.Async(true),       // Enable asynchronous crawling
 	)
 
 	// Set request timeout
@@ -202,6 +201,8 @@ func (c *Crawler) CrawlURL(job core.CrawlJob) core.CrawlResult {
 			result.Error = fmt.Errorf("colly visit error: %w", err)
 		}
 	}
+
+	collyCollector.Wait() // Wait for the crawl to finish
 
 	return result
 }
