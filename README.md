@@ -2,3 +2,13 @@
 
 ### _what? why?_ - 🔗 [here](https://www.notion.so/project-phantom-226b6acd0a1480ac9d73e5a0c26d8f5e)
 ### _infra? tech? architecture?_ - 🔗 [here](https://www.notion.so/project-phantom-Technical-Architecture-226b6acd0a148038a339fe16f0150114)
+
+---
+
+## 📄 Business Templates
+
+**Proposal & Contract Templates Pack** for Chbuzorikenna (Lagos, Nigeria)
+
+📥 **[Download PDF](dist/Proposal-Contract-Templates-Pack.pdf)** - Professional business proposal and contract templates tailored for Nigerian business context.
+
+See [TEMPLATES_README.md](TEMPLATES_README.md) for more information.
