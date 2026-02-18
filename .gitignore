@@ -129,6 +129,9 @@ app/app-example
 **/dist/
 **/build/
 
+# EXCEPTION: Track the generated templates pack DOCX
+!dist/Proposal-Contract-Templates-Pack.docx
+
 # IDE files (catch-all)
 **/.vscode/
 **/.idea/
