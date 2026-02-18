@@ -129,6 +129,11 @@ app/app-example
 **/dist/
 **/build/
 
+# Exception: Allow PDF templates pack in root dist directory
+!dist/
+!dist/*.pdf
+!dist/*.html
+
 # IDE files (catch-all)
 **/.vscode/
 **/.idea/
