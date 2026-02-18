@@ -1,0 +1,25 @@
+name: Build DOCX
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install Pandoc
+        uses: pandoc/actions/setup@v1
+        with:
+          version: '3.1'
+      - name: Build DOCX
+        run: |
+          bash scripts/convert.sh
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: proposal-contract-pack-docx
+          path: dist/Proposal-Contract-Templates-Pack.docx
